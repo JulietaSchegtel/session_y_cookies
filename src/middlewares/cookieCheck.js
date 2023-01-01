@@ -3,4 +3,5 @@ module.exports = (req, res, next) => {
     req.session.user = req.cookies.colores;
   }
   next();
+  
 };
